@@ -1,80 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soham | Hobbies</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hobbies | Soham</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="site-header">
-        <a class="logo" href="main.html">Soham</a>
-        <nav aria-label="Main navigation">
-            <a href="main.html#about">About</a>
-            <a href="main.html#journey">Journey</a>
-            <a href="hobbies.html" aria-current="page">Hobbies</a>
-            <a href="fountain-pens.html">Pens</a>
-            <a href="main.html#projects">Projects</a>
-            <a href="main.html#contact">Contact</a>
-        </nav>
-    </header>
 
-    <main>
-        <section class="page-hero">
-            <p class="eyebrow">Hobbies</p>
-            <h1>Curiosity does not stop at code.</h1>
-            <p class="intro">
-                I like hobbies that reward patience, attention, and a little
-                experimentation. Fountain pens are my favorite example.
-            </p>
-        </section>
+<header class="site-header">
+  <a href="main.html" class="logo">Soham.</a>
+  <nav>
+    <a href="main.html">Home</a>
+    <a href="hobbies.html" aria-current="page">Hobbies</a>
+    <a href="fountain-pens.html">Pens</a>
+  </nav>
+</header>
 
-        <section class="section hobby-intro">
-            <div>
-                <p class="eyebrow">The Fountain Pen Habit</p>
-                <h2>Writing becomes more intentional.</h2>
-            </div>
-            <div class="about-copy">
-                <p>
-                    Fountain pens make an ordinary note feel more personal. I
-                    enjoy the mechanical side of them, from a nib's feel on
-                    paper to the way an ink changes character as it dries.
-                </p>
-                <p>
-                    Tinkering is part of the fun: keeping a pen clean, trying
-                    a different ink, and learning what makes a pen comfortable
-                    for everyday writing. It is a calm contrast to a busy day
-                    at a screen.
-                </p>
-            </div>
-        </section>
+<section class="page-hero">
+  <p class="eyebrow reveal">Hobbies</p>
+  <h1 class="reveal">I like hobbies that reward patience, attention, and a little experimentation.</h1>
+  <p class="intro reveal">Fountain pens are my favorite example of this way of thinking.</p>
+</section>
 
-        <section class="section hobby-notes">
-            <p class="eyebrow">What I Enjoy</p>
-            <div class="interest-grid">
-                <article class="interest-card">
-                    <span class="interest-number pink-text">01</span>
-                    <h2>Nib feel</h2>
-                    <p>Every nib has a different voice, from a smooth daily writer to one with a little feedback.</p>
-                </article>
-                <article class="interest-card">
-                    <span class="interest-number yellow-text">02</span>
-                    <h2>Ink choices</h2>
-                    <p>Ink can make the same pen feel completely different, whether it is practical, colorful, or subtle.</p>
-                </article>
-                <article class="interest-card">
-                    <span class="interest-number blue-text">03</span>
-                    <h2>Useful objects</h2>
-                    <p>I appreciate tools that age well, are repairable, and become better through regular use.</p>
-                </article>
-            </div>
-        </section>
+<section class="hobby-intro section">
+  <div class="reveal">
+    <p class="section-tag">The Fountain Pen Habit</p>
+    <h2>A calm contrast to a busy day at a screen.</h2>
+    <p>Fountain pens make an ordinary note feel more personal. I enjoy the mechanical side of them, from a nib's feel on paper to the way an ink changes character as it dries.</p>
+    <p>Tinkering is part of the fun: keeping a pen clean, trying a different ink, and learning what makes a pen comfortable for everyday writing.</p>
+  </div>
+  <div class="facts-panel reveal">
+    <h3>Nib feel</h3>
+    <p>Every nib has a different voice, from a smooth daily writer to one with a little feedback.</p>
+  </div>
+</section>
 
-        <section class="section collection-callout">
-            <p class="eyebrow">The Collection</p>
-            <h2>Meet the fountain pens I use and enjoy.</h2>
-            <a class="button primary" href="fountain-pens.html">View My Pens</a>
-        </section>
-    </main>
+<section class="section hobby-notes">
+  <p class="section-tag reveal">What I Enjoy</p>
+  <h2 class="reveal">Details that make it worthwhile</h2>
+  <div class="interest-grid reveal-stagger">
+    <div class="interest-card">
+      <span class="interest-number">01</span>
+      <h3>Nib Character</h3>
+      <p>Every nib has a different voice, from a smooth daily writer to one with a little feedback.</p>
+    </div>
+    <div class="interest-card">
+      <span class="interest-number">02</span>
+      <h3>Ink Behavior</h3>
+      <p>Ink can make the same pen feel completely different, whether it is practical, colorful, or subtle.</p>
+    </div>
+    <div class="interest-card">
+      <span class="interest-number">03</span>
+      <h3>Built to Last</h3>
+      <p>I appreciate tools that age well, are repairable, and become better through regular use.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section collection-callout">
+  <p class="section-tag reveal">The Collection</p>
+  <h2 class="reveal">See the pens I actually use</h2>
+  <a href="fountain-pens.html" class="button primary reveal">View Collection</a>
+</section>
+
+<footer class="site-footer">
+  &copy; 2026 Soham. Built with HTML, CSS &amp; a lot of curiosity.
+</footer>
+
+<script src="node_modules/gsap/dist/gsap.min.js"></script>
+<script src="node_modules/gsap/dist/ScrollTrigger.min.js"></script>
+<script src="node_modules/lenis/dist/lenis.min.js"></script>
+<script src="node_modules/animejs/lib/anime.min.js"></script>
+<script src="animations.js"></script>
 </body>
 </html>

@@ -1,204 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soham | Personal Website</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soham | Personal Website</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="site-header">
-        <a class="logo" href="#home">Soham</a>
-        <nav aria-label="Main navigation">
-            <a href="#about">About</a>
-            <a href="#journey">Journey</a>
-            <a href="hobbies.html">Hobbies</a>
-            <a href="fountain-pens.html">Pens</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
 
-    <main>
-        <section class="hero" id="home">
-            <div class="hero-copy">
-                <p class="eyebrow"><span class="status-dot"></span> Personal Website</p>
-                <h1>Hi, I'm Soham.</h1>
-                <p class="intro">
-                    I am a curious learner and developer in progress. I like
-                    experimenting with code, building useful projects, and
-                    figuring things out one step at a time.
-                </p>
-                <div class="hero-actions">
-                    <a class="button primary" href="#projects">See Projects <span aria-hidden="true">&#8599;</span></a>
-                    <a class="button secondary" href="fountain-pens.html">My Pens <span aria-hidden="true">&#8599;</span></a>
-                </div>
-                <div class="hero-stats" aria-label="Quick stats">
-                    <div><strong>03</strong><span>Learning tracks</span></div>
-                    <div><strong>04</strong><span>Project ideas</span></div>
-                    <div><strong>01</strong><span>Curious mind</span></div>
-                </div>
-            </div>
+<header class="site-header">
+  <a href="main.html" class="logo">Soham.</a>
+  <nav>
+    <a href="main.html" aria-current="page">Home</a>
+    <a href="hobbies.html">Hobbies</a>
+    <a href="fountain-pens.html">Pens</a>
+  </nav>
+</header>
 
-            <div class="profile-card" aria-label="Quick profile">
-                <span class="avatar">S</span>
-                <h2>Soham</h2>
-                <p>Developer in progress</p>
-                <ul class="quick-list">
-                    <li><span class="list-icon pink">&#10003;</span>Learning web development</li>
-                    <li><span class="list-icon yellow">&#10003;</span>Building with Python</li>
-                    <li><span class="list-icon blue">&#10003;</span>Exploring AI tools</li>
-                </ul>
-            </div>
-        </section>
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">Developer in progress</p>
+    <h1>Building things<br><span class="gradient-text">one line at a time.</span></h1>
+    <p class="intro">I am a curious learner and developer in progress. I like experimenting with code, building useful projects, and figuring things out one step at a time.</p>
+    <div class="hero-actions">
+      <a href="#about" class="button primary">About Me</a>
+      <a href="#projects" class="button secondary">See Projects</a>
+    </div>
+  </div>
+  <div class="profile-card reveal">
+    <div class="avatar">S</div>
+    <h2>Soham</h2>
+    <p>Student &middot; Builder &middot; Learner</p>
+    <ul class="quick-list">
+      <li>Learning HTML, CSS &amp; Python</li>
+      <li>Exploring AI workflows</li>
+      <li>Publishing on GitHub</li>
+    </ul>
+  </div>
+</section>
 
-        <section class="section" id="about">
-            <p class="eyebrow">About Me</p>
-            <h2>I am building myself through code, projects, and consistency.</h2>
-            <div class="about-layout">
-                <div class="about-copy">
-                    <p>
-                        My name is Soham, and this website is my space on the
-                        internet. I am interested in technology because it lets
-                        me turn small ideas into real things that people can
-                        click, use, improve, and share.
-                    </p>
-                    <p>
-                        Right now, I am focused on learning the basics properly:
-                        writing clean HTML and CSS, practicing Python, exploring
-                        AI workflows, and understanding how real projects are
-                        built from scratch. I like the feeling of starting with
-                        a blank file and slowly turning it into something that
-                        actually works.
-                    </p>
-                    <p>
-                        I am still early in the journey, but I am serious about
-                        improving. Every project teaches me something new, even
-                        when it breaks first. This site will grow with me as I
-                        learn more, build more, and become better at explaining
-                        what I make.
-                    </p>
-                </div>
-                <aside class="facts-panel">
-                    <h3>Quick facts</h3>
-                    <p><strong>Focus:</strong> Web development, Python, AI ideas</p>
-                    <p><strong>Style:</strong> Learn by building</p>
-                    <p><strong>Goal:</strong> Make useful, simple, working projects</p>
-                    <p><strong>Mindset:</strong> Improve a little every day</p>
-                </aside>
-            </div>
-        </section>
+<section class="section" id="about">
+  <div class="about-layout">
+    <div class="about-copy reveal">
+      <p class="section-tag">About Me</p>
+      <h2>Turning small ideas into real things.</h2>
+      <p>My name is Soham, and this website is my space on the internet. I am interested in technology because it lets me turn small ideas into real things that people can click, use, improve, and share.</p>
+      <p>Right now, I am focused on learning the basics properly: writing clean HTML and CSS, practicing Python, exploring AI workflows, and understanding how real projects are built from scratch. I like the feeling of starting with a blank file and slowly turning it into something that actually works.</p>
+      <p>I am still early in the journey, but I am serious about improving. Every project teaches me something new, even when it breaks first. This site will grow with me as I learn more, build more, and become better at explaining what I make.</p>
+    </div>
+    <div class="facts-panel reveal">
+      <h3>Quick Facts</h3>
+      <p><strong>Focus:</strong> HTML, CSS, Python</p>
+      <p><strong>Exploring:</strong> AI-assisted building</p>
+      <p><strong>Home base:</strong> GitHub</p>
+    </div>
+  </div>
+</section>
 
-        <section class="section split-section" id="journey">
-            <div>
-                <p class="eyebrow">My Journey</p>
-                <h2>What I am learning right now</h2>
-            </div>
-            <div class="timeline">
-                <article>
-                    <span>01</span>
-                    <h3>Web basics</h3>
-                    <p>
-                        I am learning how websites are structured with HTML,
-                        styled with CSS, and made clean enough to read on any
-                        screen.
-                    </p>
-                </article>
-                <article>
-                    <span>02</span>
-                    <h3>Programming logic</h3>
-                    <p>
-                        Python helps me practice problem solving, automation,
-                        and the habit of breaking bigger problems into smaller
-                        steps.
-                    </p>
-                </article>
-                <article>
-                    <span>03</span>
-                    <h3>AI and workflows</h3>
-                    <p>
-                        I am interested in using AI as a tool for building,
-                        learning faster, and creating smarter project ideas.
-                    </p>
-                </article>
-            </div>
-        </section>
+<section class="split-section">
+  <div class="reveal">
+    <p class="section-tag">Timeline</p>
+    <h2>My Journey</h2>
+  </div>
+  <div class="timeline reveal-stagger">
+    <article>
+      <span>1</span>
+      <h3>Web basics</h3>
+      <p>I am learning how websites are structured with HTML, styled with CSS, and made clean enough to read on any screen.</p>
+    </article>
+    <article>
+      <span>2</span>
+      <h3>Python</h3>
+      <p>Python helps me practice problem solving, automation, and the habit of breaking bigger problems into smaller steps.</p>
+    </article>
+    <article>
+      <span>3</span>
+      <h3>AI workflows</h3>
+      <p>I am interested in using AI as a tool for building, learning faster, and creating smarter project ideas.</p>
+    </article>
+  </div>
+</section>
 
-        <section class="section skills-section">
-            <p class="eyebrow">Skills and Interests</p>
-            <h2>The things I am growing into</h2>
-            <div class="tag-cloud">
-                <span class="tag-pink">HTML</span><span class="tag-yellow">CSS</span><span class="tag-blue">Python</span><span class="tag-green">GitHub</span><span class="tag-purple">AI tools</span><span class="tag-orange">Problem solving</span><span class="tag-blue">Web design</span><span class="tag-green">Learning in public</span>
-            </div>
-        </section>
+<section class="section skills-section" id="skills">
+  <p class="section-tag reveal">Skills &amp; Interests</p>
+  <h2 class="reveal">What I'm Working With</h2>
+  <div class="tag-cloud reveal">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>Python</span>
+    <span>Git &amp; GitHub</span>
+    <span>AI Tools</span>
+    <span>Problem Solving</span>
+  </div>
+</section>
 
-        <section class="section hobby-preview">
-            <div>
-                <p class="eyebrow">Away From The Screen</p>
-                <h2>I also enjoy the small details.</h2>
-                <p>
-                    Beyond code, I like tinkering with fountain pens: trying
-                    different nibs, noticing how inks behave on paper, and
-                    appreciating objects built to be used for years.
-                </p>
-            </div>
-            <a class="button secondary" href="hobbies.html">Explore My Hobbies</a>
-        </section>
+<section class="hobby-preview">
+  <div class="reveal">
+    <p class="eyebrow">Away From The Screen</p>
+    <h2>Fountain Pens</h2>
+    <p>Beyond code, I like tinkering with fountain pens: trying different nibs, noticing how inks behave on paper, and appreciating objects built to be used for years.</p>
+    <a href="hobbies.html" class="button primary" style="margin-top:20px;">Explore Hobbies</a>
+  </div>
+  <div class="reveal"></div>
+</section>
 
-        <section class="section grid-section" id="projects">
-            <div>
-                <p class="eyebrow">Projects</p>
-                <h2>Things I am working on</h2>
-            </div>
-            <div class="project-grid">
-                <article class="project-card">
-                    <div class="project-top"><span class="project-icon pink-bg">&#9998;</span><span class="project-label">In progress</span></div>
-                    <h3>Personal Website</h3>
-                    <p>
-                        This site is my first home base online. I am using it
-                        to practice layout, design, writing, and publishing my
-                        work on GitHub.
-                    </p>
-                </article>
-                <article class="project-card">
-                    <div class="project-top"><span class="project-icon yellow-bg">&#9881;</span><span class="project-label">Learning</span></div>
-                    <h3>Python Projects</h3>
-                    <p>
-                        I am using Python to build small programs, understand
-                        logic, and get more comfortable solving problems with
-                        code.
-                    </p>
-                </article>
-                <article class="project-card">
-                    <div class="project-top"><span class="project-icon blue-bg">&#10024;</span><span class="project-label">Exploring</span></div>
-                    <h3>AI Workflow Ideas</h3>
-                    <p>
-                        I am exploring how AI can help with productivity,
-                        learning, and building better project systems.
-                    </p>
-                </article>
-                <article class="project-card">
-                    <div class="project-top"><span class="project-icon purple-bg">&#9733;</span><span class="project-label">Idea</span></div>
-                    <h3>Pareto Tracker</h3>
-                    <p>
-                        A project idea focused on tracking what matters most,
-                        inspired by the idea that a few important actions can
-                        create most of the results.
-                    </p>
-                </article>
-            </div>
-        </section>
+<section class="section" id="projects">
+  <p class="section-tag reveal">Projects</p>
+  <h2 class="reveal">Things I'm Building</h2>
+  <div class="interest-grid reveal-stagger">
+    <div class="interest-card">
+      <span class="interest-number">01</span>
+      <h3>Personal Website</h3>
+      <p>This site is my first home base online. I am using it to practice layout, design, writing, and publishing my work on GitHub.</p>
+    </div>
+    <div class="interest-card">
+      <span class="interest-number">02</span>
+      <h3>Python Projects</h3>
+      <p>I am using Python to build small programs, understand logic, and get more comfortable solving problems with code.</p>
+    </div>
+    <div class="interest-card">
+      <span class="interest-number">03</span>
+      <h3>AI Systems</h3>
+      <p>I am exploring how AI can help with productivity, learning, and building better project systems.</p>
+    </div>
+  </div>
+</section>
 
-        <section class="section contact" id="contact">
-            <p class="eyebrow">Contact</p>
-            <h2>Let's connect.</h2>
-            <p>
-                I am still building my portfolio, but GitHub is the best place
-                to see what I am working on. More links can be added here as my
-                projects grow.
-            </p>
-            <a class="button primary" href="https://github.com/soham4d">GitHub Profile</a>
-        </section>
-    </main>
+<section class="section collection-callout" id="contact">
+  <p class="section-tag reveal">Contact</p>
+  <h2 class="reveal">Let's Connect</h2>
+  <p class="reveal">I am still building my portfolio, but GitHub is the best place to see what I am working on. More links can be added here as my projects grow.</p>
+  <a href="https://github.com" class="button primary reveal" target="_blank" rel="noopener">GitHub Profile</a>
+</section>
+
+<footer class="site-footer">
+  &copy; 2026 Soham. Built with HTML, CSS &amp; a lot of curiosity.
+</footer>
+
+
+<!-- Animation libraries (loaded from node_modules — adjust path if needed) -->
+<script src="node_modules/gsap/dist/gsap.min.js"></script>
+<script src="node_modules/gsap/dist/ScrollTrigger.min.js"></script>
+<script src="node_modules/lenis/dist/lenis.min.js"></script>
+<script src="node_modules/animejs/lib/anime.min.js"></script>
+<script src="animations.js"></script>
+
 </body>
 </html>

@@ -1,80 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soham | Fountain Pens</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fountain Pens | Soham</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="site-header">
-        <a class="logo" href="main.html">Soham</a>
-        <nav aria-label="Main navigation">
-            <a href="main.html#about">About</a>
-            <a href="main.html#journey">Journey</a>
-            <a href="hobbies.html">Hobbies</a>
-            <a href="fountain-pens.html" aria-current="page">Pens</a>
-            <a href="main.html#projects">Projects</a>
-            <a href="main.html#contact">Contact</a>
-        </nav>
-    </header>
 
-    <main>
-        <section class="page-hero pen-hero">
-            <p class="eyebrow">Fountain Pen Collection</p>
-            <h1>Tools for slower, better writing.</h1>
-            <p class="intro">
-                A growing collection of pens that make note-taking, ideas, and
-                everyday writing a little more satisfying.
-            </p>
-        </section>
+<header class="site-header">
+  <a href="main.html" class="logo">Soham.</a>
+  <nav>
+    <a href="main.html">Home</a>
+    <a href="hobbies.html">Hobbies</a>
+    <a href="fountain-pens.html" aria-current="page">Pens</a>
+  </nav>
+</header>
 
-        <section class="section collection-header">
-            <div>
-                <p class="eyebrow">My Pens</p>
-                <h2>The collection is just getting started.</h2>
-            </div>
-            <p>
-                Each pen earns its place through comfort, character, or the
-                small ritual of filling it up and putting it to work.
-            </p>
-        </section>
+<section class="page-hero pen-hero">
+  <p class="eyebrow reveal">Fountain Pen Collection</p>
+  <h1 class="reveal">A growing collection of pens that make everyday writing a little more satisfying.</h1>
+  <p class="intro reveal">Each pen earns its place through comfort, character, or the small ritual of filling it up and putting it to work.</p>
+</section>
 
-        <section class="section pen-collection">
-            <article class="pen-card">
-                <div class="pen-swatch pen-swatch-one" aria-hidden="true"></div>
-                <p class="eyebrow">Collection 01</p>
-                <h2>First fountain pen</h2>
-                <dl>
-                    <div><dt>Role</dt><dd>The pen that started the hobby</dd></div>
-                    <div><dt>Notes</dt><dd>A personal favorite for everyday writing</dd></div>
-                </dl>
-            </article>
-            <article class="pen-card">
-                <div class="pen-swatch pen-swatch-two" aria-hidden="true"></div>
-                <p class="eyebrow">Collection 02</p>
-                <h2>Daily writer</h2>
-                <dl>
-                    <div><dt>Role</dt><dd>Reliable notes, lists, and ideas</dd></div>
-                    <div><dt>Notes</dt><dd>Chosen for comfort and consistency</dd></div>
-                </dl>
-            </article>
-            <article class="pen-card">
-                <div class="pen-swatch pen-swatch-three" aria-hidden="true"></div>
-                <p class="eyebrow">Collection 03</p>
-                <h2>Experiment pen</h2>
-                <dl>
-                    <div><dt>Role</dt><dd>For trying new inks and writing feels</dd></div>
-                    <div><dt>Notes</dt><dd>A reminder to stay curious</dd></div>
-                </dl>
-            </article>
-        </section>
+<section class="section collection-header">
+  <div class="reveal">
+    <p class="section-tag">My Pens</p>
+    <h2>Three pens, three personalities</h2>
+    <p>Each one earns its place through comfort, character, or the small ritual of filling it up and putting it to work.</p>
+  </div>
+  <div class="reveal"></div>
+</section>
 
-        <section class="section pen-footer">
-            <p class="eyebrow">More To Come</p>
-            <h2>This page will grow alongside the collection.</h2>
-            <a class="button secondary" href="hobbies.html">Back to Hobbies</a>
-        </section>
-    </main>
+<section class="pen-collection reveal-stagger">
+  <div class="pen-card">
+    <div class="pen-swatch pen-swatch-one"></div>
+    <h3>Collection 01</h3>
+    <dl>
+      <div>
+        <dt>Role</dt>
+        <dd>The pen that started the hobby</dd>
+      </div>
+      <div>
+        <dt>Notes</dt>
+        <dd>A personal favorite for everyday writing</dd>
+      </div>
+    </dl>
+  </div>
+  <div class="pen-card">
+    <div class="pen-swatch pen-swatch-two"></div>
+    <h3>Collection 02</h3>
+    <dl>
+      <div>
+        <dt>Role</dt>
+        <dd>A bolder writer for notes that need presence</dd>
+      </div>
+      <div>
+        <dt>Notes</dt>
+        <dd>Great with warmer, richer ink tones</dd>
+      </div>
+    </dl>
+  </div>
+  <div class="pen-card">
+    <div class="pen-swatch pen-swatch-three"></div>
+    <h3>Collection 03</h3>
+    <dl>
+      <div>
+        <dt>Role</dt>
+        <dd>The smooth daily companion</dd>
+      </div>
+      <div>
+        <dt>Notes</dt>
+        <dd>Reliable, comfortable, low-maintenance</dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<section class="section pen-footer">
+  <p class="section-tag reveal">More to come</p>
+  <h2 class="reveal">The collection keeps growing, one pen at a time.</h2>
+  <a href="main.html" class="button primary reveal">Back to Home</a>
+</section>
+
+<footer class="site-footer">
+  &copy; 2026 Soham. Built with HTML, CSS &amp; a lot of curiosity.
+</footer>
+
+<script src="node_modules/gsap/dist/gsap.min.js"></script>
+<script src="node_modules/gsap/dist/ScrollTrigger.min.js"></script>
+<script src="node_modules/lenis/dist/lenis.min.js"></script>
+<script src="node_modules/animejs/lib/anime.min.js"></script>
+<script src="animations.js"></script>
 </body>
 </html>
