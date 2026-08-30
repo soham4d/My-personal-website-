@@ -4,23 +4,25 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Soham | Personal Website</title>
+<meta name="description" content="Soham — developer in progress, learning HTML, CSS, Python and AI workflows. Also collects fountain pens.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2 L20 14 Q12 22 12 22 Q12 22 4 14 Z' fill='%231b2a44'/%3E%3Cline x1='12' y1='10' x2='12' y2='19' stroke='%23eef0e9' stroke-width='1.4'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="site-header">
-  <a href="main.html" class="logo">Soham.</a>
+  <a href="main.html" class="logo">soham<span class="dot">.</span></a>
   <nav>
-    <a href="main.html" aria-current="page">Home</a>
-    <a href="hobbies.html">Hobbies</a>
-    <a href="fountain-pens.html">Pens</a>
+    <a href="main.html" aria-current="page">home</a>
+    <a href="hobbies.html">hobbies</a>
+    <a href="fountain-pens.html">pens</a>
   </nav>
 </header>
 
 <section class="hero">
   <div class="hero-copy">
-    <p class="eyebrow">Developer in progress</p>
-    <h1>Building things<br><span class="gradient-text">one line at a time.</span></h1>
+    <p class="eyebrow">$ status: building</p>
+    <h1>Building things<br><span class="ink-underline-wrap">one line at a time.<svg viewBox="0 0 300 22" preserveAspectRatio="none" aria-hidden="true"><path class="ink-stroke" d="M2,14 Q75,3 150,12 T298,10"/></svg></span></h1>
     <p class="intro">I am a curious learner and developer in progress. I like experimenting with code, building useful projects, and figuring things out one step at a time.</p>
     <div class="hero-actions">
       <a href="#about" class="button primary">About Me</a>
@@ -28,7 +30,10 @@
     </div>
   </div>
   <div class="profile-card reveal">
-    <div class="avatar">S</div>
+    <div class="avatar">
+      S
+      <svg class="seal-ring" viewBox="0 0 132 132" aria-hidden="true"><circle class="ink-stroke" cx="66" cy="66" r="61"/></svg>
+    </div>
     <h2>Soham</h2>
     <p>Student &middot; Builder &middot; Learner</p>
     <ul class="quick-list">
@@ -43,7 +48,7 @@
   <div class="about-layout">
     <div class="about-copy reveal">
       <p class="section-tag">About Me</p>
-      <h2>Turning small ideas into real things.</h2>
+      <h2><span class="heading-underline">Turning small ideas into real things.<svg viewBox="0 0 460 20" preserveAspectRatio="none" aria-hidden="true"><path class="ink-stroke" d="M2,12 Q115,3 230,10 T458,9"/></svg></span></h2>
       <p>My name is Soham, and this website is my space on the internet. I am interested in technology because it lets me turn small ideas into real things that people can click, use, improve, and share.</p>
       <p>Right now, I am focused on learning the basics properly: writing clean HTML and CSS, practicing Python, exploring AI workflows, and understanding how real projects are built from scratch. I like the feeling of starting with a blank file and slowly turning it into something that actually works.</p>
       <p>I am still early in the journey, but I am serious about improving. Every project teaches me something new, even when it breaks first. This site will grow with me as I learn more, build more, and become better at explaining what I make.</p>
@@ -60,20 +65,21 @@
 <section class="split-section">
   <div class="reveal">
     <p class="section-tag">Timeline</p>
-    <h2>My Journey</h2>
+    <h2><span class="heading-underline">My Journey<svg viewBox="0 0 200 20" preserveAspectRatio="none" aria-hidden="true"><path class="ink-stroke" d="M2,13 Q50,3 100,11 T198,9"/></svg></span></h2>
   </div>
-  <div class="timeline reveal-stagger">
-    <article>
+  <div class="timeline">
+    <svg class="timeline-line" viewBox="0 0 4 100" preserveAspectRatio="none" aria-hidden="true"><line class="ink-stroke" x1="2" y1="0" x2="2" y2="100"/></svg>
+    <article class="reveal">
       <span>1</span>
       <h3>Web basics</h3>
       <p>I am learning how websites are structured with HTML, styled with CSS, and made clean enough to read on any screen.</p>
     </article>
-    <article>
+    <article class="reveal">
       <span>2</span>
       <h3>Python</h3>
       <p>Python helps me practice problem solving, automation, and the habit of breaking bigger problems into smaller steps.</p>
     </article>
-    <article>
+    <article class="reveal">
       <span>3</span>
       <h3>AI workflows</h3>
       <p>I am interested in using AI as a tool for building, learning faster, and creating smarter project ideas.</p>
@@ -83,7 +89,7 @@
 
 <section class="section skills-section" id="skills">
   <p class="section-tag reveal">Skills &amp; Interests</p>
-  <h2 class="reveal">What I'm Working With</h2>
+  <h2 class="reveal"><span class="heading-underline">What I'm Working With<svg viewBox="0 0 340 20" preserveAspectRatio="none" aria-hidden="true"><path class="ink-stroke" d="M2,13 Q85,3 170,11 T338,9"/></svg></span></h2>
   <div class="tag-cloud reveal">
     <span>HTML</span>
     <span>CSS</span>
@@ -106,20 +112,20 @@
 
 <section class="section" id="projects">
   <p class="section-tag reveal">Projects</p>
-  <h2 class="reveal">Things I'm Building</h2>
+  <h2 class="reveal"><span class="heading-underline">Things I'm Building<svg viewBox="0 0 350 20" preserveAspectRatio="none" aria-hidden="true"><path class="ink-stroke" d="M2,13 Q87,3 175,11 T348,9"/></svg></span></h2>
   <div class="interest-grid reveal-stagger">
     <div class="interest-card">
-      <span class="interest-number">01</span>
+      <span class="file-tab">.html</span>
       <h3>Personal Website</h3>
       <p>This site is my first home base online. I am using it to practice layout, design, writing, and publishing my work on GitHub.</p>
     </div>
     <div class="interest-card">
-      <span class="interest-number">02</span>
+      <span class="file-tab">.py</span>
       <h3>Python Projects</h3>
       <p>I am using Python to build small programs, understand logic, and get more comfortable solving problems with code.</p>
     </div>
     <div class="interest-card">
-      <span class="interest-number">03</span>
+      <span class="file-tab">.ai</span>
       <h3>AI Systems</h3>
       <p>I am exploring how AI can help with productivity, learning, and building better project systems.</p>
     </div>
@@ -134,15 +140,14 @@
 </section>
 
 <footer class="site-footer">
-  &copy; 2026 Soham. Built with HTML, CSS &amp; a lot of curiosity.
+  <span class="prompt">$</span> echo &quot;&copy; 2026 Soham — built with HTML, CSS, and a lot of curiosity.&quot;
 </footer>
 
 
-<!-- Animation libraries (loaded from node_modules — adjust path if needed) -->
-<script src="node_modules/gsap/dist/gsap.min.js"></script>
-<script src="node_modules/gsap/dist/ScrollTrigger.min.js"></script>
-<script src="node_modules/lenis/dist/lenis.min.js"></script>
-<script src="node_modules/animejs/lib/anime.min.js"></script>
+<!-- Animation libraries (loaded from CDN) -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.js"></script>
 <script src="animations.js"></script>
 
 </body>
