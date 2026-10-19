@@ -460,6 +460,11 @@ h3 { margin-bottom: 10px; font-family: var(--font-mono); font-weight: 600; font-
 .interest-card:nth-child(1) { --tilt: -0.8deg; }
 .interest-card:nth-child(2) { --tilt: 0.6deg; }
 .interest-card:nth-child(3) { --tilt: -0.5deg; }
+.interest-card--wide { grid-column: span 2; }
+.interest-card--empty { border-style: dashed; box-shadow: none; color: var(--ink-500); }
+.interest-card--empty:hover { box-shadow: none; transform: none; border-color: var(--line-200); }
+.interest-card--empty h3 { color: var(--ink-500); }
+.interest-card--empty .file-tab { background: var(--line-200); color: var(--ink-500); }
 .interest-card p, .pen-card dd, .collection-header > p { color: var(--ink-500); }
 
 .file-tab {
@@ -597,6 +602,7 @@ footer.site-footer .prompt { color: var(--oxblood); }
   nav { display: none; }
   .profile-card { transform: none; }
   .interest-card, .facts-panel { transform: none; }
+  .interest-card--wide { grid-column: auto; }
 }
 
 /* ========== DARK MODE — "desk lamp" ========== */
